@@ -4,7 +4,7 @@
   "description": "UI automation framework",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests --recursive  --reporter mochawesome"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,11 @@
     "@babel/preset-env": "^7.8.3",
     "babel-jest": "^24.9.0",
     "chai": "^4.2.0",
+    "express": "^4.17.1",
     "mocha": "^7.0.0",
+    "mochawesome": "^4.1.0",
+    "node-cmd": "^3.0.0",
+    "opn": "^6.0.0",
     "puppeteer": "^2.0.0"
   }
 }
