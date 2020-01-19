@@ -9,7 +9,5 @@ module.exports = {
         await helper.click(page,loginPageObject.loginButton)
         await helper.click(page,homePageObjects.logout)
         await helper.shouldExist(page,loginPageObject.title)
-
-        await page.waitFor(10000)
     }
 }

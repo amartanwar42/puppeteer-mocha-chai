@@ -63,10 +63,12 @@ describe('Login Page Tests',() => {
     })
 
     it('Reset password with invalidFormat emailId2',async ()=>{
+        await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] });
         await loginPage.invalidFormatEmailIdResetPassword(page,"sdsfsf@")
     })
 
     it('Reset password with invalidFormat emailId2',async ()=>{
+        await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] });
         await loginPage.invalidFormatEmailIdResetPassword(page,"sdsfsf@dsdfsd")
     })
 })
