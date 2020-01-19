@@ -1,0 +1,18 @@
+module.exports = {
+    firstName: '#firstName',
+    lastName: '#lastName',
+    dob: "//label[@for='birthDate']",
+    insuranceNumber: '#insuranceNumber',
+    email: "//label[@for='email']",
+    phoneNumber: '#phone-form-control',
+    language: "//label[@for='language']",
+    general: "//label[@for='notification_general']",
+    intervation: "//label[@for='notification_intervention']",
+    password: "//label[@for='password']",
+    saveButton: "//button[text()='Save']",
+    changePhoneNumber: "//div[@name='phoneNumber']/div[2]",
+    changeFirstName:"((//div[@class='sc-AykKE dzBjRE']/div/form/div)[1]/div)[2]",
+    changeLastName:"((//div[@class='sc-AykKE dzBjRE']/div/form/div)[2]/div)[2]",
+    changeDOB:"((//div[@class='sc-AykKE dzBjRE']/div/form/div)[3]/div)[2]",
+    changeInsuranceNumber:"((//div[@class='sc-AykKE dzBjRE']/div/form/div)[4]/div)[2]",
+}   

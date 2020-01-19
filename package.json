@@ -1,0 +1,19 @@
+{
+  "name": "hellobetter",
+  "version": "1.0.0",
+  "description": "UI automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-jest": "^24.9.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "puppeteer": "^2.0.0"
+  }
+}
